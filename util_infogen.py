@@ -1,6 +1,6 @@
 from pathlib import Path
 
-# https://github.com/id-Software/DOOM
+# https://github.com/id-Software/DOOM/archive/refs/heads/master.zip
 doom_src = Path('DOOM-master') / 'linuxdoom-1.10'
 
 with open(doom_src / 'info.h', 'r') as f:

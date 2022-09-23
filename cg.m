@@ -1,5 +1,5 @@
 classdef cg
-    % constants global
+    % constants global - main
     properties (Constant)
 
         %   -------------------------------------------------------------
@@ -31,6 +31,24 @@ classdef cg
 
         %   -------------------------------------------------------------
         %   d_event.h
+        % enum evtype_t
+        ev_keydown = 0
+        ev_keyup = 1
+        ev_mouse = 2
+        ev_joystick = 3
+
+        % enum gameaction_t
+        ga_nothing = 0
+        ga_loadlevel = 1
+        ga_newgame = 2
+        ga_loadgame = 3
+        ga_savegame = 4
+        ga_playdemo = 5
+        ga_completed = 6
+        ga_victory = 7
+        ga_worlddone = 8
+        ga_screenshot = 9
+
         % enum buttoncode_t
         BT_ATTACK		= 1
         BT_USE		= 2
